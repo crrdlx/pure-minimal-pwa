@@ -1,1 +1,2 @@
-# pure-minimal-pwa
+# sbc-pwa
+Satoshi Bitcoin Converter - Progressive Web App
