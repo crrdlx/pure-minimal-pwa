@@ -55,10 +55,8 @@ self.addEventListener( "fetch" , ( event ) =>
 });
 
 
-
-
 // Below is code from web page https://whatwebcando.today/articles/handling-service-worker-updates/
-// This seemed to work. It notices an update, then does a hard refresh. The only downside...it does it whether the person wants it or not and might be a slight nuisance. But, it works and likely is not a problem at all with this app.
+// This worked. It simply notices an update, then does a hard refresh. The only downside...it does it whether the person wants it or not and might be a slight nuisance. But, it works.
 // Service Worker-based solution
 self.addEventListener('activate', async () => {
 	// after we've taken over, iterate over all the current clients (windows)
